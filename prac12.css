@@ -1,6 +1,11 @@
 /* *******************************Estilo Cafe Central************************************************* */
 #cafeCentral{
     background-color: bisque;
+    padding:1%;
+}
+#cafeteCentral h1{
+    color:rgb(134, 110, 65);
+    font-size:200%;
 }
 #cafeCentral div{
     width:30%;
@@ -17,11 +22,18 @@
 }
 #nav2{
     clear:both;
-    background-color:rgb(202, 181, 142);
+    background-color: wheat;
+    
 }
 #nav2 div{
     width:20%;
 
+}
+.rojo{
+    color:red;
+}
+.resaltado{
+    font-weight:bold;
 }
 
 
