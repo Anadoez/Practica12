@@ -54,7 +54,7 @@ footer{
     padding:0%;
     background-color: gray;
 }
-#mercedes li{
+#mercedes ul li{
     display:inline;   
 }
 #mercedes a{
@@ -75,7 +75,14 @@ footer{
     background-color: orangered;
 }
 /* *******************************Estilo Levante************************************************* */
-#levante li{
+#levante ul{
+    list-style-type:none;
+    overflow:hidden;
+    margin:0%;
+    padding:0%;
+    background-color: gray;
+}
+#levante ul li{
     display:inline;
     margin:1%;
     padding:0.5%;
