@@ -1,22 +1,22 @@
 /* *******************************Estilo Cafe Central************************************************* */
-#cafeCentral{
+#central{
     background-color: bisque;
     padding:1%;
 }
-#cafeCentral h1{
+#central h1{
     color:rgb(134, 110, 65);
     font-size:200%;
 }
-#cafeCentral div{
+#central div{
     width:30%;
     margin:1%;
     float:left;
     text-align: left;
 }
-#cafeCentral img{
+#central img{
     width:95%;
 }
-#cafeCentral a{
+#central a{
     text-decoration: none;
     color:rgb(134, 110, 65);
 }
@@ -25,9 +25,13 @@
     background-color: wheat;
     
 }
+#nav2 img,#nav2 iframe{
+    width:95%;
+}
 #nav2 div{
     width:20%;
-
+    float:left;
+    margin:2%;
 }
 .rojo{
     color:red;
@@ -38,11 +42,35 @@
 
 
 /* *******************************Estilo Cafe Mercedes************************************************* */
-
-
-
+.clear{
+    clear:both;
+}
+#mercedes ul{
+    list-style-type:none;
+    overflow:hidden;
+    margin:0%;
+    padding:0%;
+    background-color: gray;
+}
+#mercedes li{
+    display:inline;
+    padding:2%;
+    margin:1%;
+}
+#mercedes a{
+    text-decoration:none;
+    font-weight: bold;
+    color:black;
+}
 
 /* *******************************Estilo Levante************************************************* */
-
+#levante li{
+    display:inline;
+    margin:1%;
+    padding:0.5%;
+}
+#levante a{
+    text-decoration:none;
+}
 
 
