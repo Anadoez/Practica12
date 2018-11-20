@@ -54,14 +54,17 @@ footer{
     padding:0%;
     background-color: gray;
 }
-#mercedes ul li{
-    display:inline;   
+#mercedes li{
+    display:block; 
+    float:left;  
+    width:7%;
+    padding:1%;
 }
 #mercedes a{
     text-decoration:none;
     font-weight: bold;
     color:black;
-    padding:16px 20px;
+    
 }
 .naranja{
     background-color: orangered;
